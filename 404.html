@@ -45,7 +45,9 @@
     }
 
     .error-image {
-      max-width: 300px;
+      width: 300px;
+      height: 200px;
+      object-fit: contain;
       margin-bottom: 40px;
     }
 
@@ -55,6 +57,10 @@
       }
       .error-message {
         font-size: 20px;
+      }
+      .error-image {
+        width: 250px;
+        height: 167px;
       }
     }
   </style>
@@ -85,7 +91,7 @@
   <div id="overlay-bg" class="overlay-bg" onclick="closeMenu()"></div>
 
   <main class="error-page" role="main">
-    <img src="/grrtrucks/images/404-truck.webp" alt="Грузовик заблудился" class="error-image" width="300" height="200">
+    <img src="/grrtrucks/images/404-truck.webp" alt="Грузовик заблудился" class="error-image">
     <h1 class="error-code">404</h1>
     <p class="error-message">Ой! Похоже, мы заблудились</p>
     <p class="error-description">
