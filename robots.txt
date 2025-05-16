@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /grrtrucks/
+Allow: /grrtrucks/articles/
+Allow: /grrtrucks/images/
+Allow: /grrtrucks/css/
+Allow: /grrtrucks/js/
+
+# Sitemap
+Sitemap: https://grrtrucks.github.io/grrtrucks/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
